@@ -1,0 +1,235 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+p {
+    color: rgb(244, 244, 248);
+}
+
+h1 ,h2,h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h4 {
+    color: white;
+}
+
+/* footer */
+
+.pie-pagina {
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    color: rgb(250, 246, 246);
+    
+
+}
+
+.box , p {
+    font-size: 20px;
+  
+
+}
+
+.img-footer {
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+}
+
+.img-footer2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+/* principal */
+
+
+.principal {
+    background-image:url(../imagenes/fondoo.webp) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 55px;
+    color: rgb(3, 3, 3);
+}
+.carrucel {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: rgb(253, 251, 251);
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.img-con {
+    width: 500px;
+}
+
+.img-con2 {
+    width: 500px;
+}
+
+.texto-contenedor {
+    padding-left: 25px;
+}
+
+.texto-contenedor2 {
+    padding-right: 25px;
+    
+} 
+
+.contenedor2 {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: rgb(252, 249, 249);
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+/* contacto */
+
+form {
+    width: 450px;
+    margin: auto;
+    background: black;
+    padding:10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+    max-width: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+/* menu */
+
+.menu {
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+
+.card-text {
+    color: rgb(12, 12, 12);
+}
+
+
+.card-text:hover {
+    background-color: rgb(131, 124, 124);
+    transition: .3s;
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    
+}
+
+@media only screen and (min-width:600px) and (max-width:899px) {
+    
+p {
+    font-size: 10px;
+}
+
+.img-con {
+    width: 250px;
+}
+
+.img-con2 {
+    width: 250px;
+}
+
+.texto-contenedor {
+    font-size: 20px;
+}
+
+.img-footer {
+    width: 200px;
+    height: 250px;
+}
+
+.img-footer2 {
+    width: 70px;
+    height: 70px;
+   
+}
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:599px) {
+  
+   
+.carrucel {
+    width: 200px;
+   
+} 
+
+p {
+    font-size: 10px;
+}
+
+.img-con {
+    width: 200px;
+}
+
+.img-con2 {
+    width: 200px;
+}
+
+.texto-contenedor {
+    font-size: 20px;
+}
+
+.img-footer {
+    width: 100px;
+    height: 150px;
+}
+
+.img-footer2 {
+    width: 45px;
+    height: 45px; 
+   
+    
+}
+}
